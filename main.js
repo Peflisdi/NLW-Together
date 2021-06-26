@@ -16,3 +16,17 @@ for (const link of links) {
     nav.classList.remove('show')
   })
 }
+
+/*============================ SCROLL HEADER SHADOW ================================*/
+const header = document.querySelector('#header')
+const navHeight = header.offsetHeight
+
+window.addEventListener('scroll', function () {
+  if (window.scrollY >= navHeight) {
+    // maior que a altura do header
+    header.classList.add('scroll')
+  } else {
+    // menor que a altura do header
+    header.classList.remove('scroll')
+  }
+})
