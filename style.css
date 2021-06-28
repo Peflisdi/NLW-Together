@@ -569,7 +569,7 @@ footer .social a:hover {
     -webkit-font-smoothing: antialiased;
   }
 
-  nav ul li a.active {
+  nav .menu ul li a.title.active {
     font-weight: bold;
     -webkit-font-smoothing: auto;
   }
